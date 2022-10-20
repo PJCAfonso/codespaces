@@ -24,7 +24,7 @@ chmod +x /usr/local/bin/docker-compose
 
 # Launch Codespaces Environment
 cd /root
-git clone https://github.com/codespaces-io/codespaces.git
+git clone https://github.com/PJCAfonso/codespaces.git
 cd /root/codespaces/cs-ansible
 docker-compose up -d
 
