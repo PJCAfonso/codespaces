@@ -26,7 +26,6 @@ chmod +x /usr/local/bin/docker-compose
 cd /root
 git clone https://github.com/PJCAfonso/codespaces.git
 cd /root/codespaces/cs-ansible
+docker build -t pjchafonso/ansible-node .
 docker-compose up -d
-
-
 
